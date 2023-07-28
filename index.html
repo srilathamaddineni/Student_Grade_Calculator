@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>STUDENT GRADE CALCULATOR</title> 
+    </head>
+    <body>
+        <div id="container">
+            <p>Student Grade Calculator</p>
+            <form>
+                <label for="computers">Computer</label>
+                <input type="number" id="computers" name="computers"><BR>
+                <label for="physics">Physics</label>
+                <input type="number" id="Physics" name="physics"><BR>
+                <label for="chemistry">chemistry</label>
+                <input type="number" id="Chemistry" name="chemistry"><BR>
+                <label for="maths">Maths</label>
+                <input type="number" id="maths" name="maths"><br>
+                <input type="button" id="percentage" value="Show percentage">
+                <div class="show-grades">
+                    <p id="show-data"> </p>
+                </div>
+            </form>
+            
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>

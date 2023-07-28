@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+
+
+
+#container{
+    width:600px;
+    height:400px;
+    background-color: black;
+    margin:0 auto;
+    top:100px;
+    position:relative;
+    color: aqua;
+    text-align: center;
+    font-size: 40px;
+
+}
+FORM{
+    font-size: 30PX;
+    text-align: left;
+}
